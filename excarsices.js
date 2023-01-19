@@ -36,3 +36,17 @@ let sheeps = 12;
 let chikensLegs = chiken * 2;
 let allLegs = (cows * 4) + chikensLegs + (sheeps * 4);
 console.log(allLegs);
+
+let heaterConsomesInHour = 2.4;
+let heaterWorked = 46;
+let heaterPrice = 2.44;
+let allPriceForHeater = (heaterWorked * heaterConsomesInHour) * heaterPrice; 
+console.log(allPriceForHeater);
+
+let heigthOfPack = 23;
+let widthOfPack = 33;
+let lenghtOfPack = 50;
+let weight = 12;
+let tarifKG = 499;
+let shippingCost = ((heigthOfPack * widthOfPack * lenghtOfPack) / 5000) * tarifKG;
+console.log(shippingCost);
